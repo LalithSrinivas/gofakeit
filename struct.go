@@ -178,7 +178,7 @@ func rSlice(ra *rand.Rand, t reflect.Type, v reflect.Value, tag string, size int
 	// use that instead of the requested size
 	elemLen := v.Len()
 	if elemLen == 0 && size == -1 {
-		size = number(ra, 1, 10)
+		size = number(ra, 5, 10)
 	} else if elemLen != 0 && (size == -1 || elemLen < size) {
 		size = elemLen
 	}
