@@ -1,3 +1,3 @@
-module github.com/brianvoe/gofakeit/v6
+module github.com/LalithSrinivas/gofakeit
 
 go 1.17
